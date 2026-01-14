@@ -36,14 +36,21 @@ It helps keep the workspace clean and improves productivity by automatically sor
 
 ##  Use Case
 Organizing Desktop files
+
 Managing Downloads folder
+
 Daily automation for students & professionals
+
 
 ## Future Enhancements
 GUI using Tkinter
+
 Undo feature
+
 Custom folder selection
+
 Logging support
+
 
 ## Author
 Riya Makwana |
