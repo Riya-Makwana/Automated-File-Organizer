@@ -1,58 +1,81 @@
-# 🗂 Automated File Organizer using Python
+# Automated File Organizer (Python GUI with Undo)
 
 ##  Project Overview
-This Python automation script organizes files in a selected folder (Desktop) by categorizing them into folders such as Images, Documents, Videos, Music, Archives, and Others.
+The **Automated File Organizer** is a Python desktop application that automatically organizes files in a selected folder into categorized subfolders such as Images, Documents, Videos, Music, Archives, and Others.
 
-It helps keep the workspace clean and improves productivity by automatically sorting files based on their extensions.
+The application includes a **GUI built using Tkinter** and an **Undo feature** that allows users to revert all file movements safely.
+
+This project demonstrates Python automation, file handling, and GUI development skills.
 
 ---
 
 ##  Features
-- Automatically organizes files into folders
-- Creates category folders if they don't exist
-- Handles unknown file types
-- Simple and beginner-friendly Python code
-- Uses built-in Python modules only
+-  Select any folder using GUI
+-  Automatically organize files by extension
+-  Undo file organization with one click
+-  Creates folders automatically if not present
+
 
 ---
 
-## 🛠 Technologies Used
-- Python 3
+##  GUI Preview (Functionality)
+- **Select Folder** → Choose folder to organize
+- **Organize Files** → Sort files into categories
+- **Undo Last Action** → Restore files to original locations
+
+---
+
+## Technologies Used
+- Python
+- Tkinter (GUI)
 - os module
 - shutil module
 
 ---
 
 ##  File Categories
+
 | Category   | Extensions |
-|-----------|-----------|
+|-----------|------------|
 | Images    | .jpg, .jpeg, .png, .gif |
 | Documents | .pdf, .docx, .doc, .txt, .xlsx, .csv, .pptx |
 | Videos    | .mp4, .mkv, .avi |
 | Music     | .mp3, .wav |
 | Archives  | .zip, .rar, .7z |
+| Others    | Unknown file types |
 
 ---
 
-##  Use Case
-Organizing Desktop files
+##  Undo Feature – How It Works
+- Each file movement is stored as a **source and destination path**
+- When **Undo** is clicked, files are moved back to their original locations
+- Ensures safe and reversible automation
 
-Managing Downloads folder
+---
 
-Daily automation for students & professionals
+##Use Cases
+Clean Desktop automatically
+
+Organize Downloads folder
+
+Personal productivity automation
+
+Python GUI practice
+
+Resume and interview project
 
 
-## Future Enhancements
-GUI using Tkinter
-
-Undo feature
-
-Custom folder selection
-
-Logging support
-
-
-## Author
+##Author
 Riya Makwana |
-Python & Web Developer
+Python developer
+
+
+⭐ Support
+
+If you find this project useful, please ⭐ star the repository!
+
+
+---
+
+
 
