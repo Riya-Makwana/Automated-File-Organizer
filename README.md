@@ -53,7 +53,7 @@ This project demonstrates Python automation, file handling, and GUI development 
 
 ---
 
-##Use Cases
+## Use Cases
 Clean Desktop automatically
 
 Organize Downloads folder
@@ -65,7 +65,7 @@ Python GUI practice
 Resume and interview project
 
 
-##Author
+## Author
 Riya Makwana |
 Python developer
 
