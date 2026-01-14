@@ -46,6 +46,6 @@ Custom folder selection
 Logging support
 
 ## Author
-Riya Makwana
+Riya Makwana |
 Python & Web Developer
 
